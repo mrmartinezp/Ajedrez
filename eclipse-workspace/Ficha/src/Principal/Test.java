@@ -24,6 +24,7 @@ public class Test {
 		Tablero t = new Tablero();
 		System.out.println(t.toString());
 		showMenu();
+                System.out.println("Comienza el juego");
 	}
 	/**
 	 * Muestra el menu del juego.
@@ -34,7 +35,7 @@ public class Test {
 
 		System.out.println();
 		System.out.println("BIENVENIDO AL JUEGO DEL AJEDREZ");
-		System.out.println("|___|___|___|___|___|___|___|___|");
+		System.out.println("");
 		System.out.println("  |___|___|___|___|___|___|___|");
 		System.out.println();
 		System.out.println("QUIERES JUGAR?  SI(1)/NO(2)");
@@ -55,8 +56,7 @@ public class Test {
 		
 		Coordenada destino;
 		char letra1;
-		int numero1;
-		
+	
 		do {
 			
 			Scanner sc=new Scanner(System.in);
